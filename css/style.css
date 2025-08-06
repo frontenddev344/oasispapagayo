@@ -3071,7 +3071,9 @@ blockquote cite:before {
     color: #707070;
 }
 
-
+.facilities.section-padding .col-lg-3.col-md-6 {
+    padding-bottom: 20px;
+}
 /* ======= Pricing 2 style ======= */
 .pricing * {
     will-change: transform
@@ -3168,6 +3170,9 @@ blockquote cite:before {
 .pricing .item.active .cont-hover {
     animation: fade 1s;
 }
+section.amenities.section-padding .col-lg-4.col-md-6 {
+    padding-bottom: 20px;
+}
 @media (max-width:1199px) {
     .pricing .item {
         width: 33.33% !important;
@@ -3175,6 +3180,9 @@ blockquote cite:before {
         margin-right: 0;
         padding: 0 15px;
         box-shadow: none
+    }
+    .handi .col-lg-5.col-md-12.mb-15.offset-lg-1 {
+        margin-top: 50px;
     }
     .pricing .item .cont {
         width: 100% !important;
@@ -3208,6 +3216,37 @@ blockquote cite:before {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
+    }
+    .og-img .img img {
+        border-radius: 5px 5px 0 0;
+    }
+    .about img {
+        margin-bottom: 20px;
+    }
+    section.about.handi .row {
+        flex-direction: column-reverse;
+    }
+   h1,.banner-header .title{
+        font-size: 34px!important;
+        line-height: 40px!important;
+    }
+    section.blog1 .section-subtitle {
+        margin-top: 20px;
+    }
+    .rooms2 .item .title {
+        font-size: 26px;
+
+    }
+    .rooms2 .item .book .price {
+        font-size: 18px;
+
+    }
+    .section-padding {
+        padding: 60px 0;
+    }
+    .section-title {
+        font-size: 30px;
+        line-height: 42px;
     }
 }
 .pricing .item .img .overlay {
@@ -3689,7 +3728,17 @@ blockquote cite:before {
     .offers2 .item {
     padding: 50px 20px !important;
     }
-}
+    .og-img .img img {
+        border-radius: 5px 5px 0 0;
+    }
+    section.rooms2.section-padding .row.br-5005 {
+        flex-direction: column-reverse;
+        margin-bottom: 40px!important;
+    }
+    section.rooms2.section-padding .row.br-0550 {
+        margin-bottom: 40px!important;
+    }
+}       
 
 
 /* ======= FAQs (Accordion) style ======= */
