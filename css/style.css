@@ -269,8 +269,8 @@ input[type="submit"]:hover i {
 button[type="submit"]:hover,
 input[type="submit"]:hover {
     border: none;
-    background-color: #fff;
-    color: #141414;
+    background-color: #000000;
+    color: #fff;
 }
 select {
     max-width: 100%;
